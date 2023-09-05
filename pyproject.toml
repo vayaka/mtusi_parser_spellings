@@ -7,8 +7,13 @@ readme = "README.md"
 packages = [{include = "mtusi_parser_spellings"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
+pandas = "^2.1.0"
+tabula-py = "^2.7.0"
 
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.0.3"
 
 [build-system]
 requires = ["poetry-core"]
